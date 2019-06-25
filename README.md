@@ -5,3 +5,6 @@ Requirements:
 Selenium
 
 	sudo pip install selenium
+
+To use:
+change the _username_ to your username and _password_ to password and run
