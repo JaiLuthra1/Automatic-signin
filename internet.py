@@ -1,7 +1,10 @@
 #import required module
 
+import os
 from selenium import webdriver
  
+#turn on wifi if switched off
+os.system("rfkill unblock wifi");
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument("--test-type")
